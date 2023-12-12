@@ -4,7 +4,8 @@
 # First subarray is arr[l..m]
 # Second subarray is arr[m+1..r]
 
-
+def mergee():
+	
 def merge(arr, l, m, r):
 	n1 = m - l + 1
 	n2 = r - m
@@ -40,7 +41,9 @@ def merge(arr, l, m, r):
 		arr[k] = L[i]
 		i += 1
 		k += 1
-
+		
+        
+     ## this is the new chnages that i have  made
 	# Copy the remaining elements of R[], if there
 	# are any
 	while j < n2:
